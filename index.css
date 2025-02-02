@@ -17,6 +17,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   transition: background-color 0.3s;
+position:left;
 }
 
 .button__icon-wrapper {
