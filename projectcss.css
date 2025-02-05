@@ -1,6 +1,6 @@
 /* From Uiverse.io by Codewithvinay */ 
 .box {
- position: relative;
+ position: float;
  width: 220px;
  height: 300px;
  display: flex;
