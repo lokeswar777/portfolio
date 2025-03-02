@@ -142,3 +142,7 @@
   transform: scale(1.2);
   color: #c23131;
 }
+.home__blob-img:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
