@@ -144,6 +144,6 @@
 }
 .home__blob-img:hover,
 home__blob-img:focus{
-  width:600px;
-  height: 600px;
+  width:400px;
+  height: 400px;
 }
