@@ -149,3 +149,11 @@ home__blob-img:focus{
   width:400px;
   height: 400px;
 }
+
+.resume{
+  margin:20px;
+  width: 180vh;
+  height:80vh;
+  padding: 10px;
+  margin: 100px;
+}
