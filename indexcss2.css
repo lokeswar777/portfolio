@@ -22,7 +22,17 @@ name{
 }
 .elements a:hover{
     color:white;
-    transform: scale(1.2);
+    /*transform: scale(1.1);*/
     transition: 0.5s ease-in-out;
   
+}
+
+
+
+/* for home section*/
+.intro{
+    font-size: 10vh;
+    color:#fb8500;
+    padding-left: 5vh;
+
 }
