@@ -1,0 +1,28 @@
+*{background-color:264653}
+navbar{
+    display: flex;
+}
+name{
+    font-size: 7vh;
+    padding:2vh 2vh 2vh 12vh;
+    color: rgb(240, 240, 241);
+    font-style: italic;
+    font-weight: bold;
+   
+}
+.elements{
+    padding:4vh 2vh 2vh 20vh;
+    display: flex;
+    font-size: 4vh;
+    color: #8d99ae;
+
+}
+.elements a{
+    padding:2vh;
+}
+.elements a:hover{
+    color:white;
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+  
+}
