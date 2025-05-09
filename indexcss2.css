@@ -1,11 +1,12 @@
-*{background-color:264653}
+*{background-color:rgb(209 250 229);}
 navbar{
     display: flex;
+    margin-top: 5px;
 }
 name{
     font-size: 7vh;
     padding:2vh 2vh 2vh 12vh;
-    color: rgb(240, 240, 241);
+    color: #222222;
     font-style: italic;
     font-weight: bold;
    
@@ -14,14 +15,14 @@ name{
     padding:4vh 2vh 2vh 20vh;
     display: flex;
     font-size: 4vh;
-    color: #8d99ae;
+    color: #222222;
 
 }
 .elements a{
     padding:2vh;
 }
 .elements a:hover{
-    color:white;
+    color:#e63946;
     /*transform: scale(1.1);*/
     transition: 0.5s ease-in-out;
   
@@ -32,7 +33,11 @@ name{
 /* for home section*/
 .intro{
     font-size: 10vh;
-    color:#fb8500;
+    color:#E63946;
     padding-left: 5vh;
 
+}
+
+.about_brief{
+    font-size: 3vh;
 }
