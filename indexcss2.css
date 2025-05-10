@@ -1,43 +1,29 @@
 *{background-color:rgb(209 250 229);}
+
 navbar{
     display: flex;
-    margin-top: 5px;
+    padding-top: 4vh;
 }
-name{
-    font-size: 7vh;
-    padding:2vh 2vh 2vh 12vh;
-    color: #222222;
-    font-style: italic;
-    font-weight: bold;
-   
-}
-.elements{
-    padding:4vh 2vh 2vh 20vh;
-    display: flex;
+
+navbar div{
     font-size: 4vh;
-    color: #222222;
+    padding-left: 10vh;
+}
 
+navbar elements {
+    padding-left: 25vh;
+    padding-top: 2vh;
 }
-.elements a{
-    padding:2vh;
-}
-.elements a:hover{
-    color:#e63946;
-    /*transform: scale(1.1);*/
-    transition: 0.5s ease-in-out;
-  
+navbar elements a{
+    padding: 3vh;
 }
 
 
-
-/* for home section*/
-.intro{
-    font-size: 10vh;
-    color:#E63946;
-    padding-left: 5vh;
-
+.Home{
+    padding:40vh 50vh 10vh 10vh;
 }
-
-.about_brief{
-    font-size: 3vh;
+.Home span{
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing:0.05em;
 }
