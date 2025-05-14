@@ -1,4 +1,7 @@
-*{background-color:rgb(209 250 229);}
+.first{
+background-color:rgb(209 250 229);
+padding: 0px;
+}
 
 navbar{
     display: flex;
@@ -24,6 +27,7 @@ navbar elements a{
 
 .Home{
     padding:40vh 50vh 10vh 10vh;
+    
 }
 .Home span{
     font-size: 4.5rem;
@@ -37,6 +41,37 @@ navbar elements a{
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
 }
+
+
+.techstack{
+  padding:10vh 50vh 10vh 10vh;
+  background-color: aquamarine;
+}
+.heads{
+  font-size: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .kalam-light {
   font-family: "Kalam", cursive;
   font-weight: 300;
