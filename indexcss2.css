@@ -8,6 +8,9 @@ navbar{
 navbar div{
     font-size: 4vh;
     padding-left: 10vh;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
 navbar elements {
@@ -28,6 +31,12 @@ navbar elements a{
     letter-spacing:0.05em;
 }
 
+
+.tagline{
+  font-size: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
 .kalam-light {
   font-family: "Kalam", cursive;
   font-weight: 300;
