@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  padding: 5vh;
+}
+
 .first{
 background-color:rgb(209 250 229);
 padding: 0px;
@@ -26,7 +35,7 @@ navbar elements a{
 
 
 .Home{
-    padding:40vh 50vh 10vh 10vh;
+    padding:40vh 50vh 20vh 10vh;
     
 }
 .Home span{
@@ -45,13 +54,36 @@ navbar elements a{
 
 .techstack{
   padding:10vh 50vh 10vh 10vh;
-  background-color: aquamarine;
+  background-color: rgb(248, 248, 248);
 }
 .heads{
   font-size: 5vh;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 2vh 5vh 5vh 2vh;
 
 }
+.stack-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2vh;
+  font-family: "Kalam", cursive;
+  font-size: 2.2vh;
+}
+
+
+.highlights {
+  padding: 10vh 50vh 10vh 10vh;
+  background-color: #f9fafb;
+}
+
+.highlight-list {
+  list-style-type: disc;
+  padding-left: 4vh;
+  font-size: 2.2vh;
+  font-family: "Kalam", cursive;
+}
+
 
 
 
