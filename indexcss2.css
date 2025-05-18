@@ -62,8 +62,10 @@ navbar elements a{
   padding: 2vh 5vh 5vh 2vh;
 
 }
+
 .stack-items {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 2vh;
