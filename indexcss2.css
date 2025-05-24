@@ -28,9 +28,12 @@ navbar div{
 navbar elements {
     padding-left: 25vh;
     padding-top: 2vh;
+    
 }
 navbar elements a{
     padding: 3vh;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -93,6 +96,11 @@ navbar elements a{
 
 
 
+/*projects*/
+
+.Projects{
+  background-color: rgb(168, 215, 233);
+}
 
 
 
