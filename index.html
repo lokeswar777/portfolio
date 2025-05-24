@@ -25,6 +25,17 @@
     <title>Lokeswar Website</title>
   </head>
   <body>
+
+<div id="yokoso-overlay">
+  <h1>Yokoso</h1>
+  <p class="aizen-quote">"Consistency is the key"</p>
+</div>
+
+
+
+
+
+
     <!--===== HEADER =====-->
     <header class="l-header">
       <nav class="nav bd-grid">
@@ -377,5 +388,20 @@
 
     <!--===== MAIN JS =====-->
     <script src="main.js"></script>
+
+
+<script>
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const overlay = document.getElementById('yokoso-overlay');
+      overlay.classList.add('hide');
+      setTimeout(() => {
+        overlay.style.display = 'none';
+      }, 2000); // matches CSS fade duration
+    }, 5000); // shows for 3 seconds
+  });
+</script>
+
+
   </body>
 </html>
