@@ -120,6 +120,30 @@
       </section>
 
       <!--===== ABOUT =====-->
+
+      <!-- Leetcode -->
+
+      <section id="leetcode">
+  <h2>LeetCode Stats</h2>
+  <pre id="leetcode-data">Loading your stats...</pre>
+
+  <script>
+    fetch('https://leetcode-stats-api.herokuapp.com/<your_username>')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("leetcode-data").innerText =
+          `⭐ Total Solved: ${data.totalSolved}
+🎯 Easy: ${data.easySolved} | Medium: ${data.mediumSolved} | Hard: ${data.hardSolved}
+🏆 Ranking: ${data.ranking}
+💬 Reputation: ${data.reputation}`;
+      })
+      .catch(err => {
+        document.getElementById("leetcode-data").innerText = "Failed to load stats.";
+        console.error(err);
+      });
+  </script>
+</section>
+
       <section class="about section" id="about">
         <h2 class="section-title" style="color:#31708e;">About</h2>
 
